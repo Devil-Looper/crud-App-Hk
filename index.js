@@ -78,7 +78,7 @@ function editUser(_id, index) {
 
 // DELETE USER 
 function deleteUser(_id) {
-    alert("User Deleted");
+    
 
     axios.delete(`https://todo-appcs.herokuapp.com/user/${_id}`)
         .then(function (response) {
